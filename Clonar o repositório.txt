@@ -1,0 +1,34 @@
+
+    Clonar o repositório:
+
+git clone https://github.com/onlyBruno/imdb-web-scraper.git
+cd imdb-web-scraper
+
+    Crie e ative um ambiente virtual:
+
+No Windows
+
+python -m venv venv
+.\venv\Scripts\activate
+
+No macOS/Linux
+
+python3 -m venv venv
+source venv/bin/activate
+
+    Instale dependências:
+
+pip install -r requirements.txt
+
+Usage
+
+Execute o script para coletar informações sobre filmes populares na IMDb:
+
+python scraper.py
+
+O script criará um arquivo CSV no diretório de saída (output/) com os detalhes do filmes extraídos.
+Contributing
+
+Contribuições são bem-vindas! Se você quiser contribuir com o projeto, siga as orientações do arquivo CONTRIBUTING.md.
+License
+This project is licensed under the MIT License.
